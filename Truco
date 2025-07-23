@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Como jogar - Truco</title>
+  <style>
+    p {
+        padding: 0px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 18px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: rgb(247, 235, 235);
+      color: #292626;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      color: #292626;
+      padding: 5px;
+      margin-left: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 25px;
+    }
+
+    header {
+      background: #b31818;
+      color: rgb(247, 235, 235);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: rgb(247, 235, 235);
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 5px 5px;
+    }
+
+    nav a:hover {
+        background-color: #961c1c;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: rgb(63, 20, 20), 235, 235);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: rgb(247, 235, 235);
+    }
+    ab {
+        color: #292626;
+        background-color: #e46464;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Como jogar jogos de carta</h1>
+    <nav>
+      <ab href="#">Truco Paulista</ab>
+      <a href="Poker.html">Pôker</a>
+      <a href="#">Pife</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2><b>Truco Paulista</b></h2>
+    <p>Número de jogadores: 2 ou 4 pessoas.</p> </br>
+    <p>Baralho: 40 cartas (completo menos as cartas 8, 9 e 10)</p> </br>
+    <p>Objetivo: Ser o primeiro a conquistar 12 pontos</p> </br>
+    <img src="ordem-de-cartas-truco.jpg">
+    <h3><b>Rodada</b></h3>
+    <p>Cada rodada consiste em, no máximo, 3 turnos</p> </br>
+    <p>Durante cada turno, o objetivo é jogar a carta mais forte, sendo a manilha a melhor carta.</p> </br>
+    <p>A manilha é a carta seguinte da virada (ex da imagem: o 3 foi a carta virada, então a próxima - a 4 - vira a manilha)</p> </br>
+    <h3><b>Truco</b></h3>
+    <p>Durante uma rodada, qualquer pessoa pode pedir truco: Em outras palavras, pedir para a rodada valer 3 pontos ao invés de 1.</p> </br>
+    <p><b>Existem 3 tipos de respostas:</b></p></br>
+    <p>Recusar: é o equivalente a desistir da rodada, ou seja, quem pediu truco ganha imediatamente.</p> </br>
+    <p>Aceitar: a partida continua, e quem ganhar conquista 3 pontos ao invés dos 1 padrão.</p> </br>
+    <p>Dobrar: seria como aceitar o truco e pedir para a rodada valer o dobro de 3, ou seja, 6. Em resposta podem recusar 
+    </p><p>(Quem pediu para dobrar leva 3 pontos), aceitar (a rodada passa a valer 6 pontos) ou triplicar (mesma lógica). O limite é a rodada valer 12 pontos (ou quadruplicar).</p> </br>
+    <h3><b>Empate</b></h3>
+    <p>O empate depende da rodada em que ele ocorreu</p> </br>
+    <p>Caso tenha acontecido na primeira rodada, quem ganhar a segunda ganha.</p> </br>
+    <p>Se empatar na segunda, quem venceu a primeira leva a mão. </p> </br>
+    <p>Caso as duas primeiras tenham empatado, vence quem ganhar a terceira.</p> </br>
+    <p>Se todas empatarem, ninguém leva ponto.</p> </br>
+</section>
+
+  <footer>
+    <p>Júlia Isabela Aguiar Chaves</p>
+  </footer>
+
+</body>
+</html>

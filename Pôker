@@ -22,7 +22,7 @@
     h3 {
       color: #292626;
       padding: 5px;
-      margin-left: 40px;
+      margin-left: 50px;
         margin-bottom: 0px;
         margin-top: 0px;
         text-align:justify;
@@ -87,9 +87,9 @@
 
   <section>
     <h2><b>Pôker</b></h2>
-    <p>Número de jogadores: 2 ou 4 pessoas.</p> </br>
-    <p>Baralho: 40 cartas (completo menos as cartas 8, 9 e 10)</p> </br>
-    <p>Objetivo: Ser o primeiro a conquistar 12 pontos</p> </br>
+    <p>Número de jogadores: 2 a 9 pessoas.</p> </br>
+    <p>Baralho: 52 cartas (baralho completo)</p> </br>
+    <p>Objetivo: Ter a melhor mão ou ser fazer todos desistirem</p> </br>
     <img src="ordem-de-cartas-truco.jpg">
     <h3><b>Rodada</b></h3>
     <p>Cada rodada consiste em, no máximo, 3 turnos</p> </br>

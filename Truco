@@ -7,10 +7,9 @@
     p {
         padding: 0px;
         margin-left: 50px;
-        margin-bottom: 0px;
-        margin-top: 0px;
         text-align:justify;
         font-size: 18px;
+        margin: 12px 50px;
     }
     body {
       font-family: Arial, sans-serif;
@@ -20,14 +19,14 @@
     }
     
     h2 {
-      font-size: 30px;
+      font-size: 40px;
     }
 
     h3 {
       color: #292626;
-      padding: 5px;
-      margin-left: 50px;
-        margin-bottom: 0px;
+      padding: 0px;
+      margin-left: 48px;
+        margin-bottom: 10px;
         margin-top: 0px;
         text-align:justify;
         font-size: 25px;
@@ -61,17 +60,30 @@
     }
 
     footer {
-      background: rgb(63, 20, 20), 235, 235);
+      background-color: rgb(75, 14, 14);
       text-align: center;
       padding: 20px;
       font-size: 14px;
       color: rgb(247, 235, 235);
     }
-    ab {
+    .atual {
         color: #292626;
         background-color: #e46464;
         border-radius: 10px;
         padding: 5px 5px;
+    }
+    .legenda {
+        font-size: 12px;
+        color:#887a7a;
+        margin-left: 480px;
+    }
+    li {
+        padding: 0px;
+        margin-left: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 18px;
     }
   </style>
 </head>
@@ -80,7 +92,7 @@
   <header>
     <h1>Como jogar jogos de carta</h1>
     <nav>
-      <ab href="#">Truco Paulista</ab>
+      <a href="#" class="atual">Truco Paulista</a>
       <a href="Poker.html">Pôker</a>
       <a href="Pife.html">Pife</a>
     </nav>
@@ -88,32 +100,50 @@
 
   <section>
     <h2><b>Truco Paulista</b></h2>
-    <p>Número de jogadores: 2 ou 4 pessoas.</p> </br>
-    <p>Baralho: 40 cartas (completo menos as cartas 8, 9 e 10)</p> </br>
-    <p>Objetivo: Ser o primeiro a conquistar 12 pontos</p> </br>
-    <img src="ordem-de-cartas-truco.jpg">
+    <p>Número de jogadores: 2 ou 4 pessoas.</p>
+    <p>Baralho: 40 cartas (baralho completo, menos as cartas 8, 9, 10 e curinga)</p>
+    <p>Objetivo: Ser o primeiro a conquistar 12 pontos</p>
+    <img src="ordem-de-cartas-truco.jpg" alt="Ordem das cartas no truco paulista da maior para a menor: 3, 2, A, K, J, Q, 7, 6, 5, 4.">
+    <p class="legenda">Ordem das cartas no truco paulista. Fonte: MegaJogos.com.br</p>
+    
     <h3><b>Rodada</b></h3>
-    <p>Cada rodada consiste em, no máximo, 3 turnos</p> </br>
-    <p>Durante cada turno, o objetivo é jogar a carta mais forte, sendo a manilha a melhor carta.</p> </br>
-    <p>A manilha é a carta seguinte da virada (ex da imagem: o 3 foi a carta virada, então a próxima - a 4 - vira a manilha)</p> </br>
+    <p>Cada rodada consiste em, no máximo, 3 turnos</p>
+    <p>Durante cada turno, o objetivo é jogar a carta mais forte, sendo a manilha a melhor carta.</p> 
+    <p>A manilha é a carta seguinte da virada (ex da imagem: o 3 foi a carta virada, então a próxima - a 4 - vira a manilha)</p> 
+    
     <h3><b>Truco</b></h3>
-    <p>Durante uma rodada, qualquer pessoa pode pedir truco: Em outras palavras, pedir para a rodada valer 3 pontos ao invés de 1.</p> </br>
-    <p><b>Existem 3 tipos de respostas:</b></p></br>
-    <p>Recusar: é o equivalente a desistir da rodada, ou seja, quem pediu truco ganha imediatamente.</p> </br>
-    <p>Aceitar: a partida continua, e quem ganhar conquista 3 pontos ao invés dos 1 padrão.</p> </br>
+    <p>Durante uma rodada, qualquer pessoa pode pedir truco: Em outras palavras, pedir para a rodada valer 3 pontos ao invés de 1.</p>
+    <p><b>Existem 3 tipos de respostas:</b></p>
+    <p>Recusar: é o equivalente a desistir da rodada, ou seja, quem pediu truco ganha imediatamente.</p>
+    <p>Aceitar: a partida continua, e quem ganhar conquista 3 pontos ao invés dos 1 padrão.</p>
     <p>Dobrar: seria como aceitar o truco e pedir para a rodada valer o dobro de 3, ou seja, 6. Em resposta podem recusar 
-    </p><p>(Quem pediu para dobrar leva 3 pontos), aceitar (a rodada passa a valer 6 pontos) ou triplicar (mesma lógica). O limite é a rodada valer 12 pontos (ou quadruplicar).</p> </br>
+    </p><p>(Quem pediu para dobrar leva 3 pontos), aceitar (a rodada passa a valer 6 pontos) ou triplicar (mesma lógica). O limite é a rodada valer 12 pontos (ou quadruplicar).</p>
+    
     <h3><b>Empate</b></h3>
-    <p>O empate depende da rodada em que ele ocorreu</p> </br>
-    <p>Caso tenha acontecido na primeira rodada, quem ganhar a segunda ganha.</p> </br>
-    <p>Se empatar na segunda, quem venceu a primeira leva a mão. </p> </br>
-    <p>Caso as duas primeiras tenham empatado, vence quem ganhar a terceira.</p> </br>
-    <p>Se todas empatarem, ninguém leva ponto.</p> </br>
+    <p>O empate depende da rodada em que ele ocorreu</p>
+    <p>Caso tenha acontecido na primeira rodada, quem ganhar a segunda ganha.</p>
+    <p>Se empatar na segunda, quem venceu a primeira leva a mão. </p>
+    <p>Caso as duas primeiras tenham empatado, vence quem ganhar a terceira.</p>
+    <p>Se todas empatarem, ninguém leva ponto e a partida é anulada.</p>
+
+    <h3><b>Ordem das cartas e regras adicionais</b></h3>
+    <p>Como mostrado na imagem do início da página, a ordem segue com o 4 sendo a carta mais fraca e o 3 a carta mais forte (no geral).</p>
+    <p>Manilha, como já mencionado, é a carta seguinte a virada. Quando temos duas manilhas na mesma partida, olhamos o naipe para saber qual é a mais forte.</p>
+    <ol>
+        <li>Conhecido como gato, o naipe de ♣️(paus) é o mais forte.</li>
+        <li>Na sequência, temos o naipe de ♥️(copas), que é o segundo mais forte</li>
+        <li>Depois, temos no terceiro lugar o de ♠️(espadas).</li>
+        <li>Por fim, o mais fraco de todos é o naipe de ♦️(ouros).</li>
+    </ol>
+    <p>Caso uma pessoa (ou uma dupla) esteja com 11 pontos, ela poderá decidir logo no início da rodada se quer parar (ponto para o adversário) ou continuar (a rodada começará trucada).</p>
+    <p>Caso o adversário da pessoa (ou dupla) com 11 pontos peça para trucar, a pessoa com 11 pontos ganha o jogo.</p>
+    <p>Só pode aumentar o valor da partida quem recebeu a proposta de truco (Em outras palavras, caso uma pessoa ou dupla tenha pedido truco, ela não pode pedir para ir a 6).</p>
 </section>
 
+<div>
   <footer>
     <p>Júlia Isabela Aguiar Chaves</p>
   </footer>
-
+</div>
 </body>
 </html>

@@ -85,6 +85,14 @@
         text-align:justify;
         font-size: 18px;
     }
+    ul {
+        padding: 0px;
+        margin-left: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 18px;
+    }
   </style>
 </head>
 <body>

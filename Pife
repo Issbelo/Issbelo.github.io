@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>Como jogar - Pife</title>
   <style>
-    p {
+    p{
         padding: 0px;
         margin-left: 50px;
         text-align:justify;
@@ -21,7 +21,7 @@
     h2 {
       font-size: 40px;
     }
-
+    
     h3 {
       color: #292626;
       padding: 0px;
@@ -88,9 +88,10 @@
   </style>
 </head>
 <body>
-
+  <!-- Cria o cabeçalho --> 
   <header>
     <h1>Como jogar jogos de carta</h1>
+    <!-- Cria a barra de navegação --> 
     <nav>
       <a href="Truco.html">Truco Paulista</a>
       <a href="Poker.html">Pôker</a>
@@ -99,11 +100,15 @@
   </header>
 
   <section>
+    <!-- Cria um título grande com nome pife --> 
     <h2><b>Pife</b></h2>
+    <!-- Cria o parágrafo --> 
     <p>Número de jogadores: 2 a 8 pessoas.</p>
     <p>Baralho: 52 cartas (baralho completo, menos o curinga) ou 104 cartas (dois baralhos completos, menos curinga).</p>
     <p>Objetivo: Ser o primeiro a fazer 3 jogos com 9 cartas.</p>
+    <!-- Adiciona uma imagem --> 
     <img src="pife-cacheta-jogadas-sequencia-trinca.png" alt="Tipos de jogo no pife. Na imagem mostra um exemplo de trinca e outro exemplo de sequência.">
+    <!-- Adiciona uma legenda --> 
     <p class="legenda">Tipos de jogo no pife. Fonte: MegaJogos.com.br</p>
     
     <h3><b>Rodada</b></h3>
@@ -124,6 +129,7 @@
 </section>
 
 <div>
+<!-- Cria o rodapé --> 
   <footer>
     <p>Júlia Isabela Aguiar Chaves</p>
   </footer>

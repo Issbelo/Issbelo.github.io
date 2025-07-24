@@ -101,43 +101,26 @@
   <section>
     <h2><b>Pife</b></h2>
     <p>Número de jogadores: 2 a 8 pessoas.</p>
-    <p>Baralho: 52 cartas (baralho completo, menos o curinga)</p>
+    <p>Baralho: 52 cartas (baralho completo, menos o curinga) ou 104 cartas (dois baralhos completos, menos curinga).</p>
     <p>Objetivo: Ser o primeiro a fazer 3 jogos com 9 cartas.</p>
     <img src="pife-cacheta-jogadas-sequencia-trinca.png" alt="Tipos de jogo no pife. Na imagem mostra um exemplo de trinca e outro exemplo de sequência.">
     <p class="legenda">Tipos de jogo no pife. Fonte: MegaJogos.com.br</p>
     
     <h3><b>Rodada</b></h3>
-    <p>Cada rodada consiste em, no máximo, 3 turnos</p>
-    <p>Durante cada turno, o objetivo é jogar a carta mais forte, sendo a manilha a melhor carta.</p> 
-    <p>A manilha é a carta seguinte da virada (ex da imagem: o 3 foi a carta virada, então a próxima - a 4 - vira a manilha)</p> 
+    <p>No início de cada rodada, cada jogador terá apenas uma ação, seguindo no sentido horário.</p>
+    <p>No início de sua ação, o jogador poderá escolher se puxa a primeira carta do monte (cartas não distribuídas viradas para baixo) ou a primeira da lixeira (cartas já descartadas, viradas para cima), após pegar uma nova carta, o jogador terá que escolher uma carta em sua mão para descartar, assim finalizando sua ação.</p> 
+    <p>A rodada termina quando o último jogador terminar sua ação, dando início a uma nova rodada.</p> 
     
-    <h3><b>Truco</b></h3>
-    <p>Durante uma rodada, qualquer pessoa pode pedir truco: Em outras palavras, pedir para a rodada valer 3 pontos ao invés de 1.</p>
-    <p><b>Existem 3 tipos de respostas:</b></p>
-    <p>Recusar: é o equivalente a desistir da rodada, ou seja, quem pediu truco ganha imediatamente.</p>
-    <p>Aceitar: a partida continua, e quem ganhar conquista 3 pontos ao invés dos 1 padrão.</p>
-    <p>Dobrar: seria como aceitar o truco e pedir para a rodada valer o dobro de 3, ou seja, 6. Em resposta podem recusar 
-    </p><p>(Quem pediu para dobrar leva 3 pontos), aceitar (a rodada passa a valer 6 pontos) ou triplicar (mesma lógica). O limite é a rodada valer 12 pontos (ou quadruplicar).</p>
+    <h3><b>Jogos</b></h3>
+    <p>A ordem das cartas no pife é: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A</p>
+    <p><b>No pife, existem dois tipos de jogos</b></p>
+    <p>Sequência: 3 cartas seguidas com o mesmo naipe (ex. A♦️, 2♦️, 3♦️).</p>
+    <p>Trinca: 3 cartas com o mesmo valor, mas naipes diferentes (ex. K♣️, K♠️, K♥️).</p>
     
-    <h3><b>Empate</b></h3>
-    <p>O empate depende da rodada em que ele ocorreu</p>
-    <p>Caso tenha acontecido na primeira rodada, quem ganhar a segunda ganha.</p>
-    <p>Se empatar na segunda, quem venceu a primeira leva a mão. </p>
-    <p>Caso as duas primeiras tenham empatado, vence quem ganhar a terceira.</p>
-    <p>Se todas empatarem, ninguém leva ponto e a partida é anulada.</p>
-
-    <h3><b>Ordem das cartas e regras adicionais</b></h3>
-    <p>Como mostrado na imagem do início da página, a ordem segue com o 4 sendo a carta mais fraca e o 3 a carta mais forte (no geral).</p>
-    <p>Manilha, como já mencionado, é a carta seguinte a virada. Quando temos duas manilhas na mesma partida, olhamos o naipe para saber qual é a mais forte.</p>
-    <ol>
-        <li>Conhecido como gato, o naipe de ♣️(paus) é o mais forte.</li>
-        <li>Na sequência, temos o naipe de ♥️(copas), que é o segundo mais forte</li>
-        <li>Depois, temos no terceiro lugar o de ♠️(espadas).</li>
-        <li>Por fim, o mais fraco de todos é o naipe de ♦️(ouros).</li>
-    </ol>
-    <p>Caso uma pessoa (ou uma dupla) esteja com 11 pontos, ela poderá decidir logo no início da rodada se quer parar (ponto para o adversário) ou continuar (a rodada começará trucada).</p>
-    <p>Caso o adversário da pessoa (ou dupla) com 11 pontos peça para trucar, a pessoa com 11 pontos ganha o jogo.</p>
-    <p>Só pode aumentar o valor da partida quem recebeu a proposta de truco (Em outras palavras, caso uma pessoa ou dupla tenha pedido truco, ela não pode pedir para ir a 6).</p>
+    <h3><b>Regras adicionais</b></h3>
+    <p>O A pode valer tanto como '1'(anterior do 2), quanto como '14'(seguinte do K), mas não como os dois ao mesmo tempo (a sequência K♣️, A♣️, 2♣️, por exemplo, não é válida).</p>
+    <p>Caso alguém esteja prestes a 'bater' (vencer o jogo) e soltem na lixeira a última carta que ela precisa, mesmo que não seja sua vez ainda, ela pode gritar "bati" e pegar a carta.</p>
+    <p>Em relação a regra mencionada anteriormente, blefar sobre ela te proíbe de usá-la</p>
 </section>
 
 <div>

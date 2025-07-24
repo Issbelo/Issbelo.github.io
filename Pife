@@ -75,7 +75,7 @@
     .legenda {
         font-size: 12px;
         color:#887a7a;
-        margin-left: 480px;
+        margin-left: 525px;
     }
     li {
         padding: 0px;
@@ -103,8 +103,8 @@
     <p>Número de jogadores: 2 a 8 pessoas.</p>
     <p>Baralho: 52 cartas (baralho completo, menos o curinga)</p>
     <p>Objetivo: Ser o primeiro a fazer 3 jogos com 9 cartas.</p>
-    <img src="ordem-de-cartas-truco.jpg" alt="Ordem das cartas no truco paulista da maior para a menor: 3, 2, A, K, J, Q, 7, 6, 5, 4.">
-    <p class="legenda">Ordem das cartas no truco paulista. Fonte: MegaJogos.com.br</p>
+    <img src="pife-cacheta-jogadas-sequencia-trinca.png" alt="Tipos de jogo no pife. Na imagem mostra um exemplo de trinca e outro exemplo de sequência.">
+    <p class="legenda">Tipos de jogo no pife. Fonte: MegaJogos.com.br</p>
     
     <h3><b>Rodada</b></h3>
     <p>Cada rodada consiste em, no máximo, 3 turnos</p>

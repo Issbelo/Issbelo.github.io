@@ -86,8 +86,8 @@
         font-size: 18px;
     }
     ul {
-        padding: 0px;
-        margin-left: 10px;
+        padding: 5px;
+        margin-left: 5px;
         margin-bottom: 0px;
         margin-top: 0px;
         text-align:justify;

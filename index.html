@@ -107,21 +107,25 @@
         }
     .chapters-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
+            padding: 0 50px;
         }
 
         .chapter-card {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 25px;
-            padding: 90px 60px;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            text-decoration: none;
-            color: inherit;
-            position: relative;
-            overflow: hidden;
+           background: rgba(247, 233, 233);
+    border-radius: 15px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
         }
          .chapter-card:hover {
             transform: translateY(-10px);
@@ -136,10 +140,10 @@
         }
 
         .chapter-description {
+            font-size: 0.95em;
             color: #4a5568;
             line-height: 1.6;
             margin-bottom: 20px;
-            text-align: justify;
         }
 
 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Como jogar - Truco</title>
+  <style>
+    html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    }
+    main {
+    flex: 1;
+    }
+    p {
+        padding: 0px;
+        margin-left: 50px;
+        text-align:justify;
+        font-size: 18px;
+        margin: 12px 50px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: rgb(247, 235, 235);
+      color: #292626;
+    }
+    
+    h2 {
+      font-size: 40px;
+      color: #292626;
+      padding: 0px;
+      margin-left: 48px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        text-align:justify;
+    }
+
+    h3 {
+      color: #292626;
+      padding: 0px;
+      margin-left: 48px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 25px;
+    }
+
+    header {
+      background: #b31818;
+      color: rgb(247, 235, 235);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: rgb(247, 235, 235);
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 5px 5px;
+    }
+
+    nav a:hover {
+        background-color: #961c1c;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: rgb(75, 14, 14);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: rgb(247, 235, 235);
+    }
+    .atual {
+        color: #292626;
+        background-color: #e46464;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+    .legenda {
+        font-size: 12px;
+        color:#887a7a;
+        margin-left: 480px;
+    }
+    li {
+        padding: 0px;
+        margin-left: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 18px;
+    }
+       .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+    .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+            gap: 30px;
+        }
+
+        .chapter-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 25px;
+            padding: 90px 60px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+         .chapter-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+
+        .chapter-title {
+            font-size: 1.8em;
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .chapter-description {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Como jogar jogos de carta</h1>
+  </header>
+</br>
+<main>
+  <h2>Introdução</h2>
+  <p>Bem-vindo ao Como Jogar Jogos de Carta, 
+um site feito para quem quer aprender, relembrar ou ensinar as
+ regras dos principais jogos de carta jogados no Brasil e no mundo.
+
+Aqui, você encontra explicações claras, passo a passo, sobre três dos jogos mais 
+populares: Truco Paulista, Poker (versão Texas Hold’em) e Pife (ou Pif Paf/Cacheta).
+ Sem complicações, sem distrações — apenas o que você precisa para começar a jogar.</p>
+ <h2>Nosso objetivo</h2>
+ <p>
+    O Como Jogar Jogos de Carta foi feito para ser direto,
+     útil e fácil de entender. Sem distrações visuais — só o essencial 
+     para quem quer aprender e jogar.
+
+Se você quer jogar por diversão com amigos ou apenas entender
+ como cada jogo funciona, este é o seu lugar.
+ </p>
+ </br>
+    <div class="chapters-grid">
+                <a href="Truco.html" class="chapter-card">
+                    <h2 class="chapter-title">♣️ Truco Paulista</h2>
+                    <p class="chapter-description">
+                        O truco paulista é jogado por 4 jogadores (duplas) com 1 baralho, sendo que o curinga e as cartas 8, 9, e 10 não são utilizadas. Cada participante ganha
+                        3 cartas e o objetivo principal é fazer 12 pontos antes dos seus adversários.
+                    </p>
+                </a>
+                <a href="Poker.html" class="chapter-card">
+                    <h2 class="chapter-title">♥️ Pôker</h2>
+                    <p class="chapter-description">
+                        O poker é um jogo de cartas onde os jogadores fazem 
+                        apostas com base na força de suas mãos, usando uma 
+                        combinação de cartas fechadas e cartas comunitárias
+                    </p>
+                </a>
+                <a href="Pife.html" class="chapter-card">
+                    <h2 class="chapter-title">♦️ Pife</h2>
+                    <p class="chapter-description">
+                     O Pife, também conhecido como Cacheta ou Pif Paf, é um jogo de cartas 
+                     onde o objetivo é formar trincas e/ou sequências com as nove cartas recebidas.
+                    </p>
+                </a>
+       </div>
+     <div>
+    </main>
+  <footer>
+    <p>Júlia Isabela Aguiar Chaves</p>
+  </footer>
+</div>
+</body>
+</html>

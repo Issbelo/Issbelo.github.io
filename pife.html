@@ -72,14 +72,16 @@
         border-radius: 10px;
         padding: 5px 5px;
     }
+    .imagem-legenda {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
     .legenda {
         font-size: 12px;
         color:#887a7a;
         text-align: left;
         margin-top: 4px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
     li {
         padding: 0px;
@@ -112,10 +114,11 @@
     <p>Baralho: 52 cartas (baralho completo, menos o curinga) ou 104 cartas (dois baralhos completos, menos curinga).</p>
     <p>Objetivo: Ser o primeiro a fazer 3 jogos com 9 cartas.</p>
     <!-- Adiciona uma imagem --> 
+    <div class="imagem-legenda">
     <img src="pife-cacheta-jogadas-sequencia-trinca.png" alt="Tipos de jogo no pife. Na imagem mostra um exemplo de trinca e outro exemplo de sequência.">
     <!-- Adiciona uma legenda --> 
     <p class="legenda">Tipos de jogo no pife. Fonte: MegaJogos.com.br</p>
-    
+    </div>
     <h3><b>Rodada</b></h3>
     <p>No início de cada rodada, cada jogador terá apenas uma ação, seguindo no sentido horário.</p>
     <p>No início de sua ação, o jogador poderá escolher se puxa a primeira carta do monte (cartas não distribuídas viradas para baixo) ou a primeira da lixeira (cartas já descartadas, viradas para cima), após pegar uma nova carta, o jogador terá que escolher uma carta em sua mão para descartar, assim finalizando sua ação.</p> 

@@ -72,10 +72,28 @@
         border-radius: 10px;
         padding: 5px 5px;
     }
+    .imagem-legenda img {
+      width: 100%;
+     height: auto;
+     display: block;
+      
+   }
+    .imagem-legenda {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+     max-width: 1000px;
+    }
     .legenda {
         font-size: 12px;
         color:#887a7a;
-        margin-left: 480px;
+        text-align: left;
+        margin-top: 4px;
+        margin-left: 0px;
+        padding: 0px;
+        width: 100%;
+       align-self: flex-start;
     }
     li {
         padding: 0px;
@@ -104,9 +122,10 @@
     <p>Número de jogadores: 2 ou 4 pessoas.</p>
     <p>Baralho: 40 cartas (baralho completo, menos as cartas 8, 9, 10 e curinga)</p>
     <p>Objetivo: Ser o primeiro a conquistar 12 pontos</p>
+    <div class="imagem-legenda">
     <img src="ordem-de-cartas-truco.jpg" alt="Ordem das cartas no truco paulista da maior para a menor: 3, 2, A, K, J, Q, 7, 6, 5, 4.">
     <p class="legenda">Ordem das cartas no truco paulista. Fonte: MegaJogos.com.br</p>
-    
+    </div>
     <h3><b>Rodada</b></h3>
     <p>Cada rodada consiste em, no máximo, 3 turnos</p>
     <p>Durante cada turno, o objetivo é jogar a carta mais forte, sendo a manilha a melhor carta.</p> 

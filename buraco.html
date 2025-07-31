@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Como jogar - Buraco Aberto</title>
+  <style>
+    p {
+        padding: 0px;
+        margin-left: 50px;
+        text-align:justify;
+        font-size: 18px;
+        margin: 12px 50px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: rgb(247, 235, 235);
+      color: #292626;
+    }
+    
+    h2 {
+      font-size: 40px;
+    }
+
+    h3 {
+      color: #292626;
+      padding: 0px;
+      margin-left: 48px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 25px;
+    }
+
+    header {
+      background: #b31818;
+      color: rgb(247, 235, 235);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      font-family: "Verdana", sans-serif;
+      font-weight: 300;
+      color: rgb(247, 235, 235);
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 5px 5px;
+    }
+
+    nav a:hover {
+        background-color: #961c1c;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: rgb(75, 14, 14);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: rgb(247, 235, 235);
+    }
+    .atual {
+        color: #292626;
+        background-color: #e46464;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+    .imagem-legenda img {
+      width: 100%;
+     height: auto;
+     display: block;
+      
+   }
+    .imagem-legenda {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+     max-width: 1000px;
+    }
+    .legenda {
+        font-size: 12px;
+        color:#887a7a;
+        text-align: left;
+        margin-top: 4px;
+        margin-left: 0px;
+        padding: 0px;
+        width: 100%;
+       align-self: flex-start;
+    }
+    ul {
+        padding: 0px;
+        margin-left: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align:justify;
+        font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Como jogar jogos de carta</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="truco.html">Truco Paulista</a>
+      <a href="poker.html">Pôker</a>
+      <a href="#" class="atual">Buraco Aberto</a>
+      <a href="pife.html">Pife</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2><b>Buraco Aberto</b></h2>
+    <p>Número de jogadores: 2 ou 4 pessoas.</p>
+    <p>Baralho: 108 cartas (dois baralhos completos com 4 curingas)</p>
+    <p>Distribuição: 11 cartas para cada participante e dois mortos com 11 cartas em cada um.</p>
+    <p>Objetivo: Conseguir o maior número de pontos com as "canastras"</p>
+    <div class="imagem-legenda">
+    <img src="jogar-buraco.jpg" alt="Mostra uma mesa de buraco onde a pessoa de cima tem 1100 pontos, enquanto de baixo possui 515 pontos.">
+    <p class="legenda">Mesa de buraco. Fonte: jogosdorei.com.br/</p>
+    </div>
+    <h3><b>O Jogo</b></h3>
+    <p>O primeiro jogador compra 1 carta do monte ou do lixo,
+     tenta formar combinações e descarta uma carta. A partir do 
+     segundo jogador, é possível pegar 1 carta do monte ou todas as da lixeira.</p>
+    <p>Após a compra, o jogador pode baixar combinações (jogos)
+     antes de descartar. O descarte encerra o turno, e não pode ser alterado depois.</p> 
+    <p>Se alguém bater com as 11 cartas iniciais, pega o "morto" e o jogo 
+    continua. Se bater novamente após pegar o morto, o jogo termina. Quem não
+    pegar o morto perde 100 pontos, além das cartas que tiver na mão.</p>
+    <p>O curinga pode ser tanto o 2 de qualquer naipe como o próprio joker.</p>
+    
+    <h3><b>Definições</b></h3>
+    <p>Baixar um jogo: Um jogo é uma sequência de 3 ou mais cartas 
+    do mesmo naipe (ex: 4♠️, 5♠️, 6♠️). O Ás pode vir antes do 2 ou depois do Rei.
+    Pode-se acrescentar cartas a jogos já baixados durante a partida.</p>
+    <p>Comprar o lixo: Um jogador pode pegar todas as cartas da lixeira de uma vez 
+    clicando sobre ela (jogo digital) ou pegando fisicamente em partidas presenciais.</p>
+    <p>Morto: Conjunto de 11 cartas entregue ao jogador que fica sem cartas na 
+    mão. Só o primeiro jogador de uma dupla pode pegar o morto. Se o monte acabar, o morto pode virar o novo monte.</p>
+    <p>Batida: Quando o jogador termina todas as cartas da mão.</p>
+    <p>Condições de batida: Pode-se bater após pegar o morto. Se ninguém pegou o
+     morto e o monte acabar, ele vira monte e a batida se torna possível ao acabar as cartas.</p>
+    <p>Canastra: Sequência ou trinca com 7 ou mais cartas. Deve ser do 
+    mesmo valor ou sequência numérica e, se sequência, também do mesmo naipe. 
+    Existem quatro tipos: </p>
+      <ol>
+        <ul>Canastra limpa. (Canastra simples sem curinga)</ul>
+        <ul>Canastra suja. (Canastra simples com curinga)</ul>
+        <ul>Canastra de quinhentos (de ás a 2, sem curinga).</ul>
+        <ul>Canastra de mil (de ás a ás, sem curinga).</ul>
+    </ol>
+    <div class="imagem-legenda">
+    <img src="canastra-real.png" alt="Mostra uma canastra real.">
+    <p class="legenda">Canastra real. Fonte: MegaJogos.com</p>
+    </div>
+    
+    <h3><b>Contagem de pontos</b></h3>
+    <p>Ao término da partida, somam-se os pontos na mesa, ou seja, os valores das cartas baixadas 
+    e o valor extra das canastras. Descontam-se os valores das cartas que 
+    sobraram nas mãos de cada jogador.</p>
+    <p>Para o jogador ou dupla que bateu, somam-se 100 pontos da batida. 
+    Caso o outro jogador ou dupla não tenha pegado o morto, diminui-se 100 pontos como penalidade.</p>
+     <ol>
+     <ul>Batida: 100 pontos;</ul>
+     <ul>2 usado como curinga: 10 pontos cada;</ul>
+     <ul>Curinga: 50 pontos cada;</ul>
+     <ul>Do K ao 8: 10 pontos cada carta;</ul>
+     <ul>Do 7 ao 3: 5 pontos cada carta;</ul>
+     <ul>Ás: 15 pontos cada;</ul>
+     <ul>Canastra Suja: 100 pontos;</ul>
+     <ul>Canastra Limpa: 200 pontos;</ul>
+     <ul>Canastra de Quinhentos: 500 pontos;</ul>
+     <ul>Canastra Real: 1000 pontos;</ul>
+    </ol>
+</section>
+
+<div>
+  <footer>
+    <p>Júlia Isabela Aguiar Chaves</p>
+  </footer>
+</div>
+</body>
+</html>

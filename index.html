@@ -4,15 +4,18 @@
   <meta charset="UTF-8" />
   <title>Como jogar - Início</title>
   <style>
+    /* Define layout flexível vertical e altura total para a página */
     html, body {
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
     }
+    /* Faz com que o conteúdo principal ocupe o espaço restante, usei para evitar footer flutuante. */
     main {
     flex: 1;
     }
+    /* Estilo dos parágrafos */
     p {
         padding: 0px;
         margin-left: 50px;
@@ -20,13 +23,14 @@
         font-size: 18px;
         margin: 12px 50px;
     }
+    /* Estilo geral do corpo da página */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       background: rgb(247, 235, 235);
       color: #292626;
     }
-
+    /* Estilo comum para os títulos h2 e h3 */
     h2, h3 {
       color: #292626;
       padding: 0px;
@@ -35,27 +39,22 @@
       margin-top: 0px;
       text-align:justify;
     }
-    
+    /* Tamanho de fonte para h2 */
     h2 {
       font-size: 40px;
     }
-
+    /* Tamanho de fonte para h3 */
     h3 {
       font-size: 25px;
     }
-
+    /* Estilo do cabeçalho */
     header {
       background: #b31818;
       color: rgb(247, 235, 235);
       padding: 20px;
       text-align: center;
     }
-
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-
+    /* Estilo do rodapé */
     footer {
       background-color: rgb(75, 14, 14);
       text-align: center;
@@ -63,12 +62,7 @@
       font-size: 14px;
       color: rgb(247, 235, 235);
     }
-    .atual {
-        color: #292626;
-        background-color: #e46464;
-        border-radius: 10px;
-        padding: 5px 5px;
-    }
+    /* Estilo dos itens de lista */
     li {
         padding: 0px;
         margin-left: 35px;
@@ -77,18 +71,20 @@
         text-align:justify;
         font-size: 18px;
     }
+    /* Centraliza conteúdo e limita largura máxima, usado para os cards */
     .container {
         max-width: 1400px;
         margin: 0 auto;
         padding: 20px 20px;
         }
+    /* Layout em grade para os cards */
     .chapters-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 20px;
         padding: 20px 30px;
         }
-
+    /* Estilo visual dos cards */
     .chapter-card {
        background: rgb(250, 250, 250);
        border-radius: 15px;
@@ -101,11 +97,12 @@
        overflow: hidden;
        min-height: 180px;
         }
+     /* Efeito de elevação ao passar o mouse nos cards */
      .chapter-card:hover {
         transform: translateY(-10px);
         box-shadow: 0 25px 50px rgba(0,0,0,0.15);
         }
-
+    /* Estilo do título dos cards */
      .chapter-title {
         font-size: 1.8em;
         color: #292626;
@@ -117,10 +114,8 @@
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        white-space: nowrap;
-
         }
-
+    /* Estilo da descrição dos cards */
       .chapter-description {
           font-size: 0.95em;
           color: #887a7a;
@@ -128,6 +123,7 @@
           margin-bottom: 0px;
           text-align: justify;
         }
+    /* Estilo para emojis nos títulos */
       .emoji {
           font-size: 1.1em;
           line-height: 1;
@@ -139,10 +135,12 @@
   </style>
 </head>
 <body>
+  <!-- Cabeçalho da página -->
   <header>
     <h1>Como jogar jogos de carta</h1>
   </header>
 </br>
+  <!-- Conteúdo principal -->
 <main>
   <h2>Introdução</h2>
   <p>Bem-vindo ao Como Jogar Jogos de Carta, 
@@ -161,8 +159,10 @@ populares: Truco Paulista, Poker (versão Texas Hold’em), Buraco Aberto e Pife
 Se você quer jogar por diversão com amigos ou apenas entender
  como cada jogo funciona, este é o seu lugar.
  </p>
+  <!-- Container dos cards dos jogos -->
   <div class="container">
     <div class="chapters-grid">
+      <!-- Card do Truco Paulista -->
                 <a href="truco.html" class="chapter-card">
                     <h2 class="chapter-title">
                       <span class="emoji">♣️</span>Truco Paulista
@@ -172,6 +172,7 @@ Se você quer jogar por diversão com amigos ou apenas entender
                         3 cartas e o objetivo principal é fazer 12 pontos antes dos seus adversários.
                     </p>
                 </a>
+      <!-- Card do Poker -->
                 <a href="poker.html" class="chapter-card">
                     <h2 class="chapter-title">
                       <span class="emoji">♥️</span>Pôker</h2>
@@ -181,6 +182,7 @@ Se você quer jogar por diversão com amigos ou apenas entender
                         combinação de cartas fechadas e cartas comunitárias.
                     </p>
                 </a>
+      <!-- Card do Buraco -->
                 <a href="buraco.html" class="chapter-card">
                     <h2 class="chapter-title">
                       <span class="emoji">♠️</span>Buraco Aberto</h2>
@@ -189,6 +191,7 @@ Se você quer jogar por diversão com amigos ou apenas entender
                     que são sequências de sete ou mais cartas do mesmo naipe. 
                     </p>
                 </a>
+      <!-- Card do Pife -->
                 <a href="pife.html" class="chapter-card">
                     <h2 class="chapter-title">
                       <span class="emoji">♦️</span>Pife</h2>
@@ -201,6 +204,7 @@ Se você quer jogar por diversão com amigos ou apenas entender
     </div>
      <div>
     </main>
+  <!-- Rodapé da página -->
   <footer>
     <p>Júlia Isabela Aguiar Chaves</p>
   </footer>
